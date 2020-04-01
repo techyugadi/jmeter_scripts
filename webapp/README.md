@@ -7,9 +7,12 @@ Steps to execute the test case:
 3. Start the Petclinic application using `docker-compose`: run `cd webapp/setup/compose; docker-compose up`.
 4. Launch Apache JMeter *GUI* and open the test case: `webapp/test/Test_PetClinic.jmx`. This test case sends HTTP requests to various URLs in the Petclinic app for 3 minutes, simulating a load of 10 users.
 ![Test Case](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter01.png)
+**Test Case**
 5. Observe the test results in the *GUI*.
 ![Response Times](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter02.png)
+**Response Times**
 ![Response Times (Graphical)](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter03.png)
+**Response Times(Graphical)**
 
 Cleanup:
 
