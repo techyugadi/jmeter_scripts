@@ -8,6 +8,7 @@ The test-case to be launched using Apache JMeter GUI is: `dashboard/Test_PetClin
 Additionally, the test-case uses a *Backend Listener* to store performance metrics in InfluxDB. A Grafana set-up connected to the InfluxDB backend will be able to produce *real-time* dashboards from these metrics.
 
 ![Using Grafana](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter17.png)
+**InfluxDB BackendListener**
 
 For this purpose:
 - A database named `jmeter` can be created in InfluxDB

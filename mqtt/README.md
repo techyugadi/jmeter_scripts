@@ -7,9 +7,12 @@ Steps to execute the test case:
 2. Launch an MQTT broker like Mosquitto. For example, we can run Mosquitto in a docker: `docker run -it --rm -p 1883:1883 -p 9001:9001  eclipse-mosquitto`
 3. Launch Apache JMeter *GUI* and open the test: `Test_MQTT.jmx`. It sends a few messages (events) to Mosquitto broker.
 ![MQTT Test](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter11.png)
+**MQTT Test**
 ![MQTT Connection](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter12.png)
+**MQTT Connection**
 4. Run the test from the *GUI* and observe the results.
 ![MQTT Test Result](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter13.png)
+**MQTT Test Results**
 
 Later, the test should be performed through command-line, instead of the GUI.
 

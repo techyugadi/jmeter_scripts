@@ -33,4 +33,6 @@ The raw performance metrics are saved in the file `raw/petclinic.jtl` and HTML o
 After completion of the test, to browse the test result, open the file `output/index.html` in a browser.
 
 ![Results Summary](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter06.png)
+**Results Summary**
 ![Response Times (Graphical)](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter07.png)
+**Response Times(Graphical)**
