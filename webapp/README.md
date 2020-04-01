@@ -28,3 +28,6 @@ To execute this test case from the command line, run:
 The raw performance metrics are saved in the file `raw/petclinic.jtl` and HTML output is generated in `output` directory.
 
 After completion of the test, to browse the test result, open the file `output/index.html` in a browser.
+
+![Results Summary](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter05.png)
+![Response Times (Graphical)](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter06.png)
