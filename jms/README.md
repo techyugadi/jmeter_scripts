@@ -7,7 +7,7 @@ Steps to execute the test case:
 2. Download a suitable JMS client and copy it to `lib` directory in your Apache JMeter installation, for example: [ActiveMQ JMS client](https://repo1.maven.org/maven2/org/apache/activemq/activemq-all/5.15.12/activemq-all-5.15.12.jar)
 3. Launch Apache JMeter *GUI* and open the test: `Test_JMS.jmx`. It sends a few text messages to a dynamic queue on ActiveMQ.
 ![JMS Test](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter08.png)
-![JMS Connection](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter09.png)
+![JMS Connection](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter09a.png)
 4. Run the test from the *GUI* and observe the results.
 ![JMS Test Result](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter10.png)
 
