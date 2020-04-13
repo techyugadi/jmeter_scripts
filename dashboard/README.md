@@ -20,7 +20,8 @@ For this purpose:
 
 Data for the dashboard is retrieved from InfluxDB. This can be verified by running the following commands on the InfluxDB shell:
 
-```use jmeter
+```
+use jmeter
  show measurements
 ```
 
