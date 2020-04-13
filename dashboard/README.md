@@ -18,7 +18,7 @@ For this purpose:
 - Grafana dashboards can be created. An [example dashboard](https://github.com/techyugadi/jmeter_scripts/blob/master/dashboard/dashboard.json) is available in this repository. It produces graphs like the ones shown below:
 ![Dashboard](https://github.com/techyugadi/jmeter_scripts/blob/master/img/jmeter19.png)
 
-Data for the dashboard is retrieved from InfluxDB. This can be verified by running the following commands on the InfluxDB shell: \
+Data for the dashboard is retrieved from InfluxDB. This can be verified by running the following commands on the InfluxDB shell:
 
 ```use jmeter
  show measurements
